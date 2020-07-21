@@ -9,11 +9,6 @@ paginate = 3
 theme = "casper3"
 title = "Hugo Themes"
 [[menu.main]]
-identifier = "about"
-name = "About"
-url = "/about/"
-weight = 10
-[[menu.main]]
 identifier = "image-credit"
 name = "Image Credit"
 url = "/image-credit/"
@@ -23,6 +18,11 @@ identifier = "github-repo-theme"
 name = "Get Theme on Github"
 url = "https://github.com/jonathanjanssens/hugo-casper3"
 weight = 30
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 10
 [[menu.main]]
 identifier = "author"
 name = "Author Homepage"
